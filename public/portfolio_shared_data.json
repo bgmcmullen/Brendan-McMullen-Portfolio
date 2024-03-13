@@ -1,17 +1,17 @@
 {
     "basic_info": {
       "name": "Brendan McMullen",
-      "titles": [ "Software Developer" ],
+      "titles": [ "Well Rounded Software Developer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "github.com/bgmcmullen",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "Linkedin",
+          "url": "linkedin.com/in/brendangmcmullen/",
+          "class": "fab fa-linkedin"
         }
       ],
       "image": "myProfile.jpg"
