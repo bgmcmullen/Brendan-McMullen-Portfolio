@@ -19,21 +19,21 @@
           "images/portfolio/harmony-navigator/p2.pgn"
         ],
         "url": "https://bgmcmullen.github.io/ear-training-practice/"
-        // ,
-        // "technologies": [
-        //   {
-        //     "class": "devicon-angularjs-plain",
-        //     "name": "Angular"
-        //   },
-        //   {
-        //     "class": "devicon-typescript-plain",
-        //     "name": "TypeScript"
-        //   },
-        //   {
-        //     "class": "devicon-csharp-plain",
-        //     "name": "C#"
-        //   }
-        // ]
+        ,
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
       }
       //,
     //   {
