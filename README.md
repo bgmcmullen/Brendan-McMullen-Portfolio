@@ -1,3 +1,5 @@
-# Modify this portfolio
+# Brendan McMullen's Coding Portfolio
 
-Make it your own! 
+https://brendanmcmullencodeportfolio.netlify.app/
+
+Welcome to my coding portfolio!
