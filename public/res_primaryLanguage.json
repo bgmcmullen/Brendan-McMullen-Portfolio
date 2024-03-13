@@ -16,7 +16,7 @@
         "description": "This website helps the user recognize musical intervals by ear. The User can choose which intervals they which to be tested on. The results chart shows the user how many times they attempted each interval compared with how many time they answer that interval correctly on the first attempt.",
         "images": [
           "images/portfolio/harmony-navigator/p1.png",
-          "images/portfolio/harmony-navigator/p2.pgn"
+          "images/portfolio/harmony-navigator/p2.png"
         ],
         "url": "https://bgmcmullen.github.io/ear-training-practice/"
         ,
