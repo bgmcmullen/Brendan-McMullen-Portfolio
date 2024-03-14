@@ -29,24 +29,9 @@
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
           "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
         },
         {
           "name": "Bootstrap",
@@ -54,15 +39,26 @@
           "level": "85"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
+          "name": "FAUST",
+          "class": "",
+          "level": ""
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "name": "FAUST",
+          "class": "",
+          "level": ""
+        },
+        {
+          "name": "Logic Pro",
+          "class": "",
+          "level": ""
+        },
+        {
+          "name": "FluCoMa",
+          "class": "",
+          "level": ""
         }
+        
       ]
     }
   }

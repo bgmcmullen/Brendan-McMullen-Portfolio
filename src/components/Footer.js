@@ -29,7 +29,7 @@ class Footer extends Component {
                 }
                 style={{ display: "inline" }}
               >
-                <span
+                <span style={{display: 'none'}}d
                   className="iconify language-icon mr-5"
                   data-icon="twemoji-flag-for-flag-united-kingdom"
                   data-inline="false"
@@ -45,7 +45,7 @@ class Footer extends Component {
                 }
                 style={{ display: "inline" }}
               >
-                <span
+                <span style={{display: 'none'}}
                   className="iconify language-icon"
                   data-icon="twemoji-flag-for-flag-poland"
                   data-inline="false"

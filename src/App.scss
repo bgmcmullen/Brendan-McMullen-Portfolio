@@ -232,6 +232,7 @@ header h1 {
 
 #resume {
 	background: #efe1bd;
+	background-color: rgb(1, 21, 47);
 }
 
 .experience-icon {
@@ -353,8 +354,8 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
 	padding-bottom: 5%;
+	background-color: rgb(129, 198, 255);
 }
 
 .portfolio-item {
@@ -402,7 +403,7 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: #fff;
+	background-color: #158ae9;
 	text-align: center;
 }
 
@@ -437,4 +438,10 @@ footer a:focus {
 .social-links {
 	margin-top: 10px;
 	font-size: 22px;
+}
+
+.row-aligner {
+	background-image: url("backgroundImage.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
