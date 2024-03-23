@@ -135,7 +135,7 @@ header h1 {
 
 .foto img {
 	display: block;
-	width: 100%;
+	max-width: 100%;
 }
 
 .foto div {
@@ -444,4 +444,6 @@ footer a:focus {
 	background-image: url("backgroundImage.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
+	max-width: 1000px;
+	position: relative;
 }
