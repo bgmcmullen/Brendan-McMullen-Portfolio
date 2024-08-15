@@ -6,10 +6,38 @@
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
+        "data-structures-and-algorithms": "Data Structures and Algorithms",
         "experience": "Experience"
       }
     },
     "projects": [
+      {
+        "title": "VolunteerBridge",
+        "startDate": "2024",
+        "description": "",
+        "images": [
+          "images/portfolio/volunteer-bridge/VB-1.png",
+          "images/portfolio/volunteer-bridge/VB-2.png",
+          "images/portfolio/volunteer-bridge/VB-3.png",
+          "images/portfolio/volunteer-bridge/VB-4.png"
+        ],
+        "urls": [{"label": "Frontend", "url":"https://github.com/TechSpark-Solutions/VolunteerBridgeApp"},{"label": "Backend", "url":"https://github.com/TechSpark-Solutions/VolunteerBridge-AuthAPI"}],
+        "hasMultipleUrls": true,
+        "technologies": [
+          {
+            "class": "",
+            "name": "HTML"
+          },
+          {
+            "class": "",
+            "name": "CSS"
+          },
+          {
+            "class": "",
+            "name": "JavaScript"
+          }
+        ]
+      },
       {
         "title": "Harmony Navigator",
         "startDate": "2023",
@@ -18,12 +46,19 @@
           "images/portfolio/harmony-navigator/p1.png",
           "images/portfolio/harmony-navigator/p2.png"
         ],
-        "url": "https://bgmcmullen.github.io/ear-training-practice/"
-        ,
+        "urls": [{"label": "Deployed", "url":"https://bgmcmullen.github.io/harmony-navigator/"},{"label": "Repo", "url":"https://github.com/TechSpark-Solutions/VolunteerBridge-AuthAPI"}],
         "technologies": [
           {
             "class": "",
-            "name": "React"
+            "name": "HTML"
+          },
+          {
+            "class": "",
+            "name": "CSS"
+          },
+          {
+            "class": "",
+            "name": "JavaScript"
           }
         ]
       },

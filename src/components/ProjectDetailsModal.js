@@ -11,7 +11,7 @@ class ProjectDetailsModal extends Component {
       const images = this.props.data.images;
       var title = this.props.data.title;
       var description = this.props.data.description;
-      var url = this.props.data.url;
+      var urls = this.props.data.urls;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
@@ -79,18 +79,23 @@ class ProjectDetailsModal extends Component {
           <div className="col-md-10 mx-auto">
             <h3 style={{ padding: "5px 5px 0 5px" }}>
               {title}
-              {url ? (
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-href"
-                >
-                  <i
-                    className="fas fa-external-link-alt"
-                    style={{ marginLeft: "10px" }}
-                  ></i>
-                </a>
+              {urls ? (urls.map((url) => (
+                <>
+                <div>
+                  <p style={{fontWeight: "normal", display: "inline-block"}}>{url.label}</p><a
+                    href={url.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-href"
+                  >
+                    <i
+                      className="fas fa-external-link-alt"
+                      style={{ marginLeft: "10px" }}
+                    ></i>
+                  </a></div>
+                </>
+              ))
+
               ) : null}
             </h3>
             <p className="modal-description">{description}</p>
