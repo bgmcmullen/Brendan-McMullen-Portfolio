@@ -25,11 +25,11 @@ class Skills extends Component {
     }
 
     return (
-      <section id="skills">
+      <section id="resume">
         <div className="col-md-12">
           <div className="col-md-12">
-            <h1 className="section-title">
-              <span className="text-white">{sectionName}</span>
+            <h1 className="section-title" style={{ color: "black" }}>
+              <span>{sectionName}</span>
             </h1>
           </div>
           <div className="col-md-12 text-center">

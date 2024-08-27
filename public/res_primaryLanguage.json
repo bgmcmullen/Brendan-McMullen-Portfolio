@@ -1,134 +1,134 @@
 {
-    "basic_info": {
-      "description_header": "Hello!",
-      "description": "I'm Brendan McMullen. Well rounded software developer with a background in music technology, music production, music theory, music composition and experience teaching courses at an Ivy league University. Passionate about solving problems with creative solutions. Eager to contribute to a collaborative and creative team.",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "data-structures-and-algorithms": "Data Structures and Algorithms",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Brendan McMullen",
+    "description": "Software Developer with a PhD in Music Composition and a previous career teaching music theory. Passionate about solving problems with creative solutions and eager to contribute to a collaborative team.\\nLanguages, Databases and Libraries: JavaScript, TypeScript, Python, C#, C++, Java, React, React Native, Node.js, PostgreSQL, MongoDB, HTML5, CSS3\\nTechnologies: VS Code, Visual Studio, Git, GitHub, Netlify, Render.com, AWS, Jest",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "data-structures-and-algorithms": "Data Structures and Algorithms",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "VolunteerBridge",
+      "startDate": "2024",
+      "description": [
+        "A mobile app developed by a collaborative team to connect volunteers with nonprofits.",
+        "Implements secure login with biometric identification, enhancing user data protection.",
+        "Technologies used: React Native, Expo, Node, and PostgreSQL."
+      ],
+      "images": [
+        "images/portfolio/volunteer-bridge/VB-5.png",
+        "images/portfolio/volunteer-bridge/VB-2.png",
+        "images/portfolio/volunteer-bridge/VB-3.png",
+        "images/portfolio/volunteer-bridge/VB-4.png"
+      ],
+      "urls": [
+        {
+          "label": "Front-end Source code",
+          "url": "https://github.com/TechSpark-Solutions/VolunteerBridgeApp"
+        },
+        {
+          "label": "Front-end Source code",
+          "url": "https://github.com/TechSpark-Solutions/VolunteerBridge-AuthAPI"
+        }
+      ],
+      "hasMultipleUrls": true,
+      "technologies": [
+        {
+          "class": "",
+          "name": "React Native"
+        },
+        {
+          "class": "",
+          "name": "PostGreSQL"
+        },
+        {
+          "class": "",
+          "name": "Node"
+        },
+        {
+          "class": "",
+          "name": "HTML"
+        },
+        {
+          "class": "",
+          "name": "CSS"
+        },
+        {
+          "class": "",
+          "name": "JavaScript"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "VolunteerBridge",
-        "startDate": "2024",
-        "description": "",
-        "images": [
-          "images/portfolio/volunteer-bridge/VB-1.png",
-          "images/portfolio/volunteer-bridge/VB-2.png",
-          "images/portfolio/volunteer-bridge/VB-3.png",
-          "images/portfolio/volunteer-bridge/VB-4.png"
-        ],
-        "urls": [{"label": "Frontend", "url":"https://github.com/TechSpark-Solutions/VolunteerBridgeApp"},{"label": "Backend", "url":"https://github.com/TechSpark-Solutions/VolunteerBridge-AuthAPI"}],
-        "hasMultipleUrls": true,
-        "technologies": [
-          {
-            "class": "",
-            "name": "HTML"
-          },
-          {
-            "class": "",
-            "name": "CSS"
-          },
-          {
-            "class": "",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "Harmony Navigator",
-        "startDate": "2023",
-        "description": "This website helps the user recognize musical intervals by ear. The User can choose which intervals they which to be tested on. The results chart shows the user how many times they attempted each interval compared with how many time they answer that interval correctly on the first attempt.",
-        "images": [
-          "images/portfolio/harmony-navigator/p1.png",
-          "images/portfolio/harmony-navigator/p2.png"
-        ],
-        "urls": [{"label": "Deployed", "url":"https://bgmcmullen.github.io/harmony-navigator/"},{"label": "Repo", "url":"https://github.com/TechSpark-Solutions/VolunteerBridge-AuthAPI"}],
-        "technologies": [
-          {
-            "class": "",
-            "name": "HTML"
-          },
-          {
-            "class": "",
-            "name": "CSS"
-          },
-          {
-            "class": "",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "",
-        "startDate": "",
-        "description": "",
-        "images": [
-          "",
-          ""
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "",
-            "name": ""
-          },
-          {
-            "class": "",
-            "name": ""
-          }
-        ]
-      },
-      {
-        "title": "",
-        "startDate": "",
-        "description": "",
-        "images": [
-          "",
-          ""
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "",
-            "name": ""
-          },
-          {
-            "class": "",
-            "name": ""
-          },
-          {
-            "class": "",
-            "name": ""
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "University of Pennsylvania",
-        "title": "Philadelphia, Music Theory Instructor",
-        "years": "2",
-        "mainTech": [
-          ""
-        ],
-        "technologies": [
-          
-        ]
-      },
-      {
-        "company": "University of Michigan,",
-        "title": "Assistant Recording Engineer",
-        "years": "1",
-        "mainTech": [
-          "Logic Pro"
-        ],
-        "technologies": [
-          
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Harmony Navigator",
+      "startDate": "2023",
+      "description": [
+        "Web app for practicing basic music theory listening skills",
+        "Engages users in interactive listening exercises, enhancing their interval recognition skills.",
+        "Tracks users’ results including their strengths are areas for improvement.",
+        "Technologies used: Solo project built with JavaScript, HTML, and CSS."
+      ],
+      "images": [
+        "images/portfolio/harmony-navigator/p1.png",
+        "images/portfolio/harmony-navigator/p2.png"
+      ],
+      "urls": [
+        {
+          "label": "Live App",
+          "url": "https://bgmcmullen.github.io/harmony-navigator/"
+        },
+        {
+          "label": "Source code",
+          "url": "https://github.com/TechSpark-Solutions/VolunteerBridge-AuthAPI"
+        }
+      ],
+      "technologies": [
+        {
+          "class": "",
+          "name": "HTML"
+        },
+        {
+          "class": "",
+          "name": "CSS"
+        },
+        {
+          "class": "",
+          "name": "JavaScript"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Bridging Tech",
+      "title": "Full Stack Software Developer – Volunteer ",
+      "years": "0",
+      "mainTech": [
+        "TypeScript"
+      ],
+      "technologies": ["React", "Node", "OpenAI"]
+    },
+    {
+      "company": "University of Pennsylvania",
+      "title": "Philadelphia, Music Theory Instructor",
+      "years": "2",
+      "mainTech": [
+        "Classroom Teaching"
+      ],
+      "technologies": []
+    },
+    {
+      "company": "University of Michigan,",
+      "title": "Assistant Recording Engineer",
+      "years": "1",
+      "mainTech": [
+        "Logic Pro"
+      ],
+      "technologies": []
+    }
+  ]
+}

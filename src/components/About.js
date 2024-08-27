@@ -11,8 +11,8 @@ class About extends Component {
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
-      var hello = this.props.resumeBasicInfo.description_header;
-      var about = this.props.resumeBasicInfo.description;
+      // var hello = this.props.resumeBasicInfo.description_header;
+      // var about = this.props.resumeBasicInfo.description;
     }
 
     return (
@@ -26,9 +26,8 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
                     src={profilepic}
-                    alt="Avatar placeholder"
+                    alt="Profile"
                   />
                   <Icon
                     icon={angularIcon}
@@ -77,10 +76,14 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="wave">Brendan McMullen </span>
                     <br />
                     <br />
-                    {about}
+                    Software Engineer with a PhD in Music Composition and a previous career teaching music theory. Passionate about solving problems with creative solutions and eager to contribute to a collaborative team.
+                    <br />
+                    <span style={{fontWeight: "bold"}}>Languages, Databases and Libraries: </span>JavaScript, TypeScript, Python, C#, C++, Java, Python, React, React Native, Node.js, PostgreSQL, MongoDB, HTML5, CSS3
+                    <br />
+                    <span style={{fontWeight: "bold"}}>Technologies: </span>VS Code, Visual Studio, Git, GitHub, Netlify, Render.com, AWS, Jest
                   </div>
                 </div>
               </div>

@@ -10,7 +10,7 @@ class ProjectDetailsModal extends Component {
       const technologies = this.props.data.technologies;
       const images = this.props.data.images;
       var title = this.props.data.title;
-      var description = this.props.data.description;
+      var description = this.props.data.description ? Object.values(this.props.data.description) : [];
       var urls = this.props.data.urls;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
@@ -30,7 +30,7 @@ class ProjectDetailsModal extends Component {
         });
         if (this.props.data.images) {
           var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
+            return <div key={i} data-src={elem} style={{ maxHeight: "100%" }} />;
           });
         }
       }
@@ -81,24 +81,26 @@ class ProjectDetailsModal extends Component {
               {title}
               {urls ? (urls.map((url) => (
                 <>
-                <div>
-                  <p style={{fontWeight: "normal", display: "inline-block"}}>{url.label}</p><a
-                    href={url.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="link-href"
-                  >
-                    <i
-                      className="fas fa-external-link-alt"
-                      style={{ marginLeft: "10px" }}
-                    ></i>
-                  </a></div>
+                  <div>
+                    <p style={{ fontWeight: "normal", display: "inline-block" }}>{url.label}</p><a
+                      href={url.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="link-href"
+                    >
+                      <i
+                        className="fas fa-external-link-alt"
+                        style={{ marginLeft: "10px" }}
+                      ></i>
+                    </a></div>
                 </>
               ))
 
               ) : null}
             </h3>
-            <p className="modal-description">{description}</p>
+            <div className="modal-description">
+              <ul>{description.map(line => <li>{line}</li>)}</ul>
+            </div>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>

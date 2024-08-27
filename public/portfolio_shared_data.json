@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Brendan McMullen",
-      "titles": [ "Well Rounded Software Developer" ],
+      "titles": [ "Software Engineer, Musician, Composer" ],
       "social": [
         {
           "name": "github",
@@ -19,39 +19,94 @@
     "skills": {
       "icons": [
         {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain colored",
+          "level": "70"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain colored",
+          "level": "70"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain colored",
+          "level": "70"
+        },
+        {
+          "name": "C#",
+          "class": "devicon-csharp-plain colored",
+          "level": "70"
+        },
+        {
+          "name": "C++",
+          "class": "devicon-cplusplus-plain colored",
+          "level": "70"
+        },
+        {
+          "name": "Java",
+          "class": "devicon-java-plain colored",
+          "level": "70"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain colored",
+          "level": "70"
+        },
+        {
+          "name": "React Native",
+          "class": "devicon-react-plain colored",
+          "level": "70"
+        },
+        {
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain colored",
+          "level": "70"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain colored",
+          "level": "70"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain colored",
+          "level": "70"
+        },
+        {
           "name": "HTML 5",
-          "class": "devicon-html5-plain",
+          "class": "devicon-html5-plain colored",
           "level": "95"
         },
         {
           "name": "CSS 3",
-          "class": "devicon-css3-plain",
+          "class": "devicon-css3-plain colored",
           "level": "95"
         },
         {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
           "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
+          "class": "devicon-bootstrap-plain colored",
           "level": "85"
         },
         {
-          "name": "FAUST",
-          "class": "",
-          "level": ""
+          "name": "Visual Studio",
+          "class": "devicon-visualstudio-plain colored",
+          "level": "85"
         },
         {
-          "name": "Logic Pro",
-          "class": "",
-          "level": ""
+          "name": "Git",
+          "class": "devicon-git-plain colored",
+          "level": "85"
         },
         {
-          "name": "FluCoMa",
-          "class": "",
-          "level": ""
+          "name": "GitHub",
+          "class": "devicon-github-plain colored",
+          "level": "85"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain-wordmark colored",
+          "level": "85"
         }
         
       ]
