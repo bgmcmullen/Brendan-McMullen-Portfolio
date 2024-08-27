@@ -69,7 +69,7 @@
       "description": [
         "Web app for practicing basic music theory listening skills",
         "Engages users in interactive listening exercises, enhancing their interval recognition skills.",
-        "Tracks users’ results including their strengths are areas for improvement.",
+        "Tracks users’ results including their strengths and areas for improvement.",
         "Technologies used: Solo project built with JavaScript, HTML, and CSS."
       ],
       "images": [
