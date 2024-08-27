@@ -106,7 +106,7 @@
     {
       "company": "Bridging Tech",
       "title": "Full Stack Software Developer – Volunteer ",
-      "years": "0",
+      "years": "",
       "activites": ["Developing an AI-powered chatbot using OpenAI's language models designed to connect students and families affected by homelessness and housing insecurity with technology and educational resources."],
       "mainTech": [
         "TypeScript"
@@ -116,7 +116,7 @@
     {
       "company": "University of Pennsylvania",
       "title": "Philadelphia, Music Theory Instructor",
-      "years": "2",
+      "years": "",
       "activites": ["Developed and integrated interactive tools with Max/MSP and Auralia software, resulting in 82% of students reporting enhanced engagement and learning outcomes.", "Utilized innovative assessment methods for exams, accurately evaluating and improving student mastery of course material, according to 91% of polled students."],
       "mainTech": [
         "Classroom Teaching"
@@ -126,7 +126,7 @@
     {
       "company": "University of Michigan",
       "title": "Assistant Recording Engineer",
-      "years": "1",
+      "years": "",
       "activites": ["Recorded and edited over 6 concerts per semester using Logic Pro and Pro Tools, ensuring high-quality audio production achieving a 100% satisfaction rate from the lead sound engineer.", "Applied ORTF stereo technique with Shure KSM137 microphones to capture professional-grade audio."],
       "mainTech": [
         "Logic Pro"
