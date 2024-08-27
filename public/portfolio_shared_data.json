@@ -5,12 +5,12 @@
       "social": [
         {
           "name": "github",
-          "url": "github.com/bgmcmullen",
+          "url": "https://github.com/bgmcmullen",
           "class": "fab fa-github"
         },
         {
           "name": "Linkedin",
-          "url": "linkedin.com/in/brendangmcmullen/",
+          "url": "https://linkedin.com/in/brendangmcmullen/",
           "class": "fab fa-linkedin"
         }
       ],
