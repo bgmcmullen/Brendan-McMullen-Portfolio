@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Home from "./components/Home";
+import Blog from "./components/Blog";
 
 class App extends Component {
 
@@ -17,6 +18,28 @@ class App extends Component {
       sharedData: {},
     };
   }
+
+  blogsInfo = [{
+    title: "Validating a Palindrome - A deceptively simple task",
+    author: "Brendan McMullen",
+    date: "August 27, 2024",
+    description: ["Determine whether a string is a valid palindrome is what one common question a beginner coder may be asked to demonstrate to show an a basic understanding of coding and logical reason. This is a deceptively simple question that can be solved with  very few lines of code.",
+      "However, there are multiple solutions to this problem and understanding the differences between then is a great to begin to understand how our code works and how me can maximize its efficiency.",
+      "Here is a simple solution in JavaScript", "-----------------------------------------------",
+      "function isValidPalindrome(string)  {",
+      "// split the string into an array - reverse the array – join reverse array back into a string",
+      "   	const reversedString =  string.split(‘’).reverse().join(‘’);",
+    	"   	return string === reversedString;",
+      "-----------------------------------------------",
+      ]
+      
+  },
+  {
+    title: "My Second Blog Post",
+    author: "Brendan McMullen",
+    date: "August 27, 2024",
+    description: ["Determine whether a string is a valid palindrome is what one common question a beginner coder may be asked to demonstrate to show an a basic understanding of coding and logical reason. This is a deceptively simple question that can be solved with  very few lines of code.", "However there are multiple solutions to this problem and understanding the differences between then is a great to begin to understand how our code works and how me can maximize its efficient. Show a growth mindset While it is true"]
+  }];
 
   applyPickedLanguage = (pickedLanguage, oppositeLangIconId) => {
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
@@ -94,6 +117,12 @@ class App extends Component {
             element={<About
               resumeBasicInfo={this.state.resumeData.basic_info}
               sharedBasicInfo={this.state.sharedData.basic_info}
+            />}>
+          </Route>
+          <Route 
+            path="/coding-blog" 
+            element={<Blog
+              blogsInfo={this.blogsInfo}
             />}>
           </Route>
         </Routes>
