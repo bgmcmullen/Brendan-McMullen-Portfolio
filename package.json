@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@brookr/react-switch": "^6.0.1",
     "bootstrap": "^5.3.3",
     "jquery": "^3.7.1",

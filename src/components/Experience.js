@@ -58,7 +58,7 @@ class Experience extends Component {
               {work.company}
               
             </h4>
-            <ul>
+            <ul style={{fontSize: "15px"}}>
                 {activites.map(line => <li>{line}</li>)}
               </ul>
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
