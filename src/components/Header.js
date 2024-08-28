@@ -29,9 +29,7 @@ class Header extends Component {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
       this.titles = this.props.sharedData.titles; //...map(x => [ x.toUpperCase(), 1500 ] ).flat();
-    }
-    if (this.props.sharedBasicInfo) {
-      var networks = this.props.sharedBasicInfo.social.map(function (network) {
+      var networks = this.props.sharedData.social.map(function (network) {
         return (
           <span key={network.name} className="m-4">
             <a href={network.url} target="_blank" rel="noopener noreferrer">
@@ -48,12 +46,7 @@ class Header extends Component {
 
     return (
       <header id="home" style={{ height: window.innerHeight - 100, display: 'block' }}>
-        <span key={network.name} className="m-4">
-            <a href={network.url} target="_blank" rel="noopener noreferrer">
-              <i className={network.class}></i>
-            </a>
-          </span>
-       
+        <div className="col social-links" style={{display: "block", scale: "2", height: "50px"}}>{networks}</div>
         <Nav activeKey="/home" fill style={{ position: 'absolute', top: 10, right: 10 }}>
           <Nav.Item> 
             <LinkContainer to="/">

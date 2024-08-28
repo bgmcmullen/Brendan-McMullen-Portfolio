@@ -12,6 +12,11 @@
           "name": "Linkedin",
           "url": "https://linkedin.com/in/brendangmcmullen/",
           "class": "fab fa-linkedin"
+        },
+        {
+          "name": "Gmail",
+          "url": "mailto:brendangmcmullen@gmail.com",
+          "class": "fas fa-envelope"
         }
       ],
       "image": "myProfile.jpg"

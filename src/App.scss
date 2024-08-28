@@ -47,7 +47,7 @@ header {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top: 150px;
+	padding-top: 80px;
 	padding-bottom: 0;
 }
 
@@ -359,13 +359,14 @@ header h1 {
 }
 
 #portfolio {
-	padding-bottom: 5%;
+	padding-bottom: 0;
 	background-color: rgb(129, 198, 255);
 }
 
 .portfolio-item {
 	max-width: 100%;
-	margin-bottom: 15px;
+	margin-top: 5px;
+	margin-bottom: 0px;
 	text-align: center;
 }
 
