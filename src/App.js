@@ -30,9 +30,10 @@ class App extends Component {
         Here is a simple solution in JavaScript:
       </p>
       <pre style={this.preStyle}>function isValidPalindrome(string) {"{"}</pre>
-      <pre style={this.preStyle}>     // Split the string into an array, reverse the array, and join the reversed array back into a string</pre>
+      <pre style={this.preStyle}>     {"// Split the string into an array, reverse the array, and join the reversed array back into a string"}</pre>
       <pre style={this.preStyle}>     const reversedString = string.split('').reverse().join('');</pre>
-      <pre style={this.preStyle}>     // Return true/false (are the original string and reversed string the same?)</pre>
+      <pre style={this.preStyle}>     {"// Return true/false (are the original string and reversed string the same?)"}</pre>
+
       <pre style={this.preStyle}>     return string === reversedString;</pre>
       <pre style={this.preStyle}>{"}"}</pre>
       <p>
