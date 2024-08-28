@@ -28,12 +28,12 @@ class App extends Component {
       <p>
         Here is a simple solution in JavaScript:
       </p>
-      {/* <pre style={this.preStyle}>function isValidPalindrome(string) {"{"}</pre>
-      <pre style={this.preStyle}>     // Split the string into an array, reverse the array, and join the reversed array back into a string</pre>
+      <pre style={this.preStyle}>function isValidPalindrome(string) {"{"}</pre>
+      <pre style={this.preStyle}>     {"// Split the string into an array, reverse the array, and join the reversed array back into a string"}</pre>
       <pre style={this.preStyle}>     const reversedString = string.split('').reverse().join('');</pre>
-      <pre style={this.preStyle}>     // Return true/false (are the original string and reversed string the same?)</pre>
+      <pre style={this.preStyle}>     {"// Return true/false (are the original string and reversed string the same?)"}</pre>
       <pre style={this.preStyle}>     return string === reversedString;</pre>
-      <pre style={this.preStyle}>{"}"}</pre> */}
+      <pre style={this.preStyle}>{"}"}</pre>
       <p>
         This works and is a completely valid way to solve the problem. But can we find an even better solution? This solution has two disadvantages: it uses more memory than necessary and takes more time than it has to.
       </p>
