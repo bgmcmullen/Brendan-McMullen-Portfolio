@@ -46,7 +46,7 @@ class Header extends Component {
 
     return (
       <header id="home" style={{ height: window.innerHeight - 100, display: 'block' }}>
-        <div className="col social-links" style={{display: "block", scale: "2", height: "50px"}}>{networks}</div>
+        <div className="col social-links" style={{display: "block", scale: "2", height: "60px", paddingTop: "10px"}}>{networks}</div>
         <Nav activeKey="/home" fill style={{ position: 'absolute', top: 10, right: 10 }}>
           <Nav.Item> 
             <LinkContainer to="/">
