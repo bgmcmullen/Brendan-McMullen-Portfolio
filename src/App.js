@@ -33,6 +33,7 @@ class App extends Component {
       <pre style={this.preStyle}>     {"// Split the string into an array, reverse the array, and join the reversed array back into a string"}</pre>
       <pre style={this.preStyle}>     const reversedString = string.split('').reverse().join('');</pre>
       <pre style={this.preStyle}>     {"// Return true/false (are the original string and reversed string the same?)"}</pre>
+
       <pre style={this.preStyle}>     return string === reversedString;</pre>
       <pre style={this.preStyle}>{"}"}</pre>
       <p>
@@ -130,15 +131,15 @@ class App extends Component {
       <Router>
         <Header sharedData={this.state.sharedData.basic_info} />
         <Routes>
-          <Route 
-            exact path="/" 
+          <Route
+            exact path="/"
             element={<Home
               resumeData={this.state.resumeData}
               sharedData={this.state.sharedData}
             />}>
           </Route>
-          <Route 
-            path="/about" 
+          <Route
+            path="/about"
             element={<About
               resumeBasicInfo={this.state.resumeData.basic_info}
               sharedBasicInfo={this.state.sharedData.basic_info}
@@ -151,10 +152,10 @@ class App extends Component {
             />}>
           </Route>
         </Routes>
-        <Footer 
+        <Footer
           sharedBasicInfo={this.state.sharedData.basic_info}
-          applyPickedLanguage={this.applyPickedLanguage} 
-        />  
+          applyPickedLanguage={this.applyPickedLanguage}
+        />
       </Router>
     );
   }
