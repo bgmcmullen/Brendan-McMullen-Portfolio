@@ -8,16 +8,15 @@ class Blog extends Component {
       return <div>Loading...</div>;
     }
 
-    return (
-      blogsInfo.map(blog => {
+    return (<>
+      <h3 style={{margin: "10px", marginLeft: "20px", marginRight: "20px"}}>Through this blog, I’m sharing the coding problems I've tackled and the experiences I've had while learning to program. I hope to offer valuable tips and encouragement to those who are also navigating the path to becoming a developer. Please note that while I aim to provide helpful insights, this blog is not a substitute for official resources or formal education.</h3>
+
+      {blogsInfo.map(blog => {
         return (
           <section id="blog">
             <div className="col-md-12">
-              <h1 style={{ color: "black" }}>
-                <span>{blog.title}</span>
-              </h1>
               <div className="row center mx-auto mb-5">
-                <div className="col-md-8 center">
+                <div className="col-md-8 center" style={{ width: "100%" }}>
                   <div className="col-md-10">
                     <div className="card">
                       <div className="card-header">
@@ -54,10 +53,7 @@ class Blog extends Component {
                         <p>
                           <strong>Date:</strong> {blog.date}
                         </p>
-                        <p>{blog.description.map((line, i) => {
-                          return (<p key={i}>{line}</p>)
-                        }
-                        )}</p>
+                        <p>{blog.description}</p>
                       </div>
                     </div>
                   </div>
@@ -68,6 +64,9 @@ class Blog extends Component {
         )
       }
       )
+      }
+    </>
+
     );
   }
 }

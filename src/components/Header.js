@@ -50,7 +50,7 @@ class Header extends Component {
           </Nav.Item>
           <Nav.Item> 
             <LinkContainer to="/coding-blog">
-              <Nav.Link href="/">Coding Blog</Nav.Link>
+              <Nav.Link eventKey="coding-blog">Coding-Blog</Nav.Link>
             </LinkContainer>
           </Nav.Item>
           <Nav.Item>
