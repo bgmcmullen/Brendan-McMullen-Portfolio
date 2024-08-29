@@ -127,35 +127,33 @@ class App extends Component {
 
   render() {
     return (
+      <><Router></Router>
       <BrowserRouter>
         <Header sharedData={this.state.sharedData.basic_info} />
         <Routes>
-          <Route 
-            exact path="/" 
+          <Route
+            exact path="/"
             element={<Home
               resumeData={this.state.resumeData}
-              sharedData={this.state.sharedData}
-            />}>
+              sharedData={this.state.sharedData} />}>
           </Route>
-          <Route 
-            path="/about" 
+          <Route
+            path="/about"
             element={<About
               resumeBasicInfo={this.state.resumeData.basic_info}
-              sharedBasicInfo={this.state.sharedData.basic_info}
-            />}>
+              sharedBasicInfo={this.state.sharedData.basic_info} />}>
           </Route>
           <Route
             path="/coding-blog"
             element={<Blog
-              blogsInfo={this.blogsInfo}
-            />}>
+              blogsInfo={this.blogsInfo} />}>
           </Route>
         </Routes>
-        <Footer 
+        <Footer
           sharedBasicInfo={this.state.sharedData.basic_info}
-          applyPickedLanguage={this.applyPickedLanguage} 
-        />  
+          applyPickedLanguage={this.applyPickedLanguage} />
       </BrowserRouter>
+      </>
     );
   }
 }
