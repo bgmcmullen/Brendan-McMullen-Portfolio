@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, BrowserRouter } from "react-router-dom";
 import $ from "jquery";
 import "./App.scss";
 import Header from "./components/Header";
@@ -127,7 +127,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <BrowserRouter>
         <Header sharedData={this.state.sharedData.basic_info} />
         <Routes>
           <Route 
@@ -155,7 +155,7 @@ class App extends Component {
           sharedBasicInfo={this.state.sharedData.basic_info}
           applyPickedLanguage={this.applyPickedLanguage} 
         />  
-      </Router>
+      </BrowserRouter>
     );
   }
 }
