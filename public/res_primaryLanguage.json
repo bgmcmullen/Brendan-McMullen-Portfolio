@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Brendan McMullen",
-    "description": "Software Developer with a PhD in Music Composition and a previous career teaching music theory. Passionate about solving problems with creative solutions and eager to contribute to a collaborative team.\\nLanguages, Databases and Libraries: JavaScript, TypeScript, Python, C#, C++, Java, React, React Native, Node.js, PostgreSQL, MongoDB, HTML5, CSS3\\nTechnologies: VS Code, Visual Studio, Git, GitHub, Netlify, Render.com, AWS, Jest",
+    "description": "AI Engineer & Full-Stack Developer with a PhD in Music Composition from the University of Pennsylvania and a background in education and audio technology. I build human-centered AI tools using PyTorch, LangChain, and RAG pipelines. Skilled in React, Django, and cloud deployment (Azure, AWS), with a focus on making AI both useful and accessible.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -11,6 +11,126 @@
     }
   },
   "projects": [
+    {
+      "title": "Tower Race",
+      "startDate": "2025",
+      "description": [
+        "Tower Race is a simple single player game where the play must build and optimize their tower using bricks, competing against an AI opponent.",
+        "Player vs. AI Gameplay: Compete against an AI opponent with a robust strategy for building stable towers.",
+        "Real-Time WebSocket Communication: Smooth, real-time updates of game state.",
+        "Interactive Animations: Animated tower building and dynamic feedback for player actions."
+      ],
+      "images": [
+        "images/portfolio/tower-race/screenshot.png"
+      ],
+      "urls": [
+        {
+          "label": "Live App",
+          "url": "https://tower-race.netlify.app/"
+        },
+        {
+          "label": "Front-end Source code",
+          "url": "https://github.com/bgmcmullen/tower-race-frontend"
+        },
+        {
+          "label": "Back-end Source code",
+          "url": "https://github.com/bgmcmullen/tower-race-server"
+        }
+      ],
+      "technologies": [
+        {
+          "class": "",
+          "name": "REACT"
+        },
+        {
+          "class": "",
+          "name": "Django"
+        },
+        {
+          "class": "",
+          "name": "Pytorch"
+        }
+      ]
+    },
+    {
+      "title": "Blackjack+",
+      "startDate": "2025",
+      "description": [
+        "Blackjack+ is a twist on classic blackjack. The goal is to get as close as possible to the target score without going over. Unlike traditional blackjack, the target score changes each round!",
+        "The computer dealer uses a PyTorch-based model trained on simulated Blackjack+ scenarios to make decisions during gameplay.",
+         "To simulate human-like behavior, the AI plays faster when it’s more confident in its decision, and slower when it’s uncertain"
+      ],
+      "images": [
+        "images/portfolio/blackjack/screenshot1.png",
+        "images/portfolio/blackjack/screenshot2.png"
+      ],
+      "urls": [
+        {
+          "label": "Live App",
+          "url": "https://black-jack4445.netlify.app"
+        },
+        {
+          "label": "Front-end Source code",
+          "url": "https://github.com/bgmcmullen/BlackJack-plus"
+        },
+        {
+          "label": "Back-end Source code",
+          "url": "https://github.com/bgmcmullen/BlackJack-plus-server"
+        }
+      ],
+      "technologies": [
+        {
+          "class": "",
+          "name": "REACT"
+        },
+        {
+          "class": "",
+          "name": "Django"
+        },
+        {
+          "class": "",
+          "name": "Pytorch"
+        }
+      ]
+    },
+    {
+      "title": "NeuroPatch",
+      "startDate": "2025",
+      "description": [
+        "This project is a learning tool for understanding how neural networks work — built entirely from scratch in the Max/MSP JavaScript environment (ES5 only, no external ML libraries).",
+        "Customizable feedforward neural network.",
+        "Manual matrix math and backpropagation",
+        "Multiple activation functions: Sigmoid, Softplus, Tanh, SiLU"
+
+      ],
+      "images": [
+        "images/portfolio/neuro-patch/screenshot.png"
+      ],
+      "urls": [
+        {
+          "label": "Video Demo [Coming Soon!]",
+          "url": ""
+        },
+        {
+          "label": "Source code",
+          "url": "https://github.com/bgmcmullen/NeuroPatch"
+        }
+      ],
+      "technologies": [
+        {
+          "class": "",
+          "name": "Max/MSP"
+        },
+        {
+          "class": "",
+          "name": "JavaScript"
+        },
+        {
+          "class": "",
+          "name": "Maching Learning"
+        }
+      ]
+    },
     {
       "title": "VolunteerBridge",
       "startDate": "2024",
@@ -105,13 +225,28 @@
   "experience": [
     {
       "company": "Bridging Tech",
-      "title": "Full Stack Software Developer – Volunteer ",
+      "title": "AI Engineer and Full-Stack Developer",
       "years": "",
-      "activites": ["Developing an AI-powered chatbot using OpenAI's language models designed to connect students and families affected by homelessness and housing insecurity with technology and educational resources."],
+      "activites": ["Built a custom RAG pipeline with self-implemented cosine distance and mean pooling to enhance embedding retrieval from an internal knowledge base without relying on third-party vector stores.",
+      "Developed an AI-powered chatbot using TypeScript and OpenAI LLMs, designed to connect 5,000+ students and families affected by housing insecurity with technology and digital literacy training",
+      "Built the login authorization system using React, TypeScript, and PostgreSQL for Bridging Tech education platform (Bridging Tech Ed), ensuring secure storage of user data and parental control for 5,000+ minors using the site across 30 partnered shelters.",
+      "Contributed to the deployment and management of Cloud Operations using Azure platform.",
+      "Utilized data from A/B tests and focus groups to drive user experience insights and enhancements on the platform’s UX/UI.",
+      "Resolved an issue that had caused the website to be offline for four weeks, restoring functionality within half an hour of reviewing the code."],
       "mainTech": [
-        "TypeScript"
       ],
-      "technologies": ["React", "Node", "OpenAI"]
+      "technologies": ["Langchain", "OpenAI", "Cosine Similarity", "Mean Pooling", "React", "Node"]
+    },
+    {
+      "company": "Scale AI (through subsidiary Outlier AI)",
+      "title": "Artificial Intelligence & ML Trainer",
+      "years": "",
+      "activites": ["Trained Large Language Models in Python coding, mathematical reasoning, JSON parsing, and image recognition through prompt engineering, response evaluation, and thorough documentation of AI model abilities and limitations.",
+      "Earned a 100% approval rate and 81%+ top quality rating in four LLM training projects.",
+      "Peer-reviewed 18+ tasks, ensuring high quality before submission and providing detailed, constructive feedback to fellow AI trainers."],
+      "mainTech": [
+      ],
+      "technologies": []
     },
     {
       "company": "University of Pennsylvania",

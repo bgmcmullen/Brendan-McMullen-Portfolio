@@ -79,11 +79,10 @@ class About extends Component {
                     <span className="wave">Brendan McMullen </span>
                     <br />
                     <br />
-                    Software Engineer with a PhD in Music Composition and a previous career teaching music theory. Passionate about solving problems with creative solutions and eager to contribute to a collaborative team.
+                    AI Engineer & Full-Stack Developer with a PhD in Music Composition from the University of Pennsylvania and a background in education and audio technology. I build human-centered AI tools using PyTorch, LangChain, and RAG pipelines. Skilled in React, Django, and cloud deployment (Azure, AWS), with a focus on making AI both useful and accessible.
                     <br />
-                    <span style={{fontWeight: "bold"}}>Languages, Databases and Libraries: </span>JavaScript, TypeScript, Python, C#, C++, Java, Python, React, React Native, Node.js, PostgreSQL, MongoDB, HTML5, CSS3
                     <br />
-                    <span style={{fontWeight: "bold"}}>Technologies: </span>VS Code, Visual Studio, Git, GitHub, Netlify, Render.com, AWS, Jest
+                    <span style={{fontWeight: "bold"}}>Technologies: </span>Langchain, Pytorch, TensorFlow, Numpy, Large Language Models (LLMs), Azure, TypeScript, JavaScript, Python, React, React Native, PostgreSQL, Node, Django
                   </div>
                 </div>
               </div>
